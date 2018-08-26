@@ -1,0 +1,221 @@
+*,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Ubuntu", "Helvetica Neue", "Helvetica", "Arial", "WenQuanYi Micro Hei", "Microsoft YaHei", "Droid Sans Fallback", sans-serif;
+}
+
+::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+
+hr {
+  display: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+body {
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.42857143;
+  overflow: hidden;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+table {
+  table-layout: fixed;
+}
+
+span,
+img,
+a,
+.panel-heading,
+.table tbody tr td {
+  cursor: default;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+input + span {
+  cursor: inherit;
+}
+
+button > span {
+  cursor: inherit;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.table tbody tr td {
+  padding: 8px;
+}
+
+.div-col {
+  display: flex;
+  flex-flow: column;
+}
+
+.poi-ship-cond-0 {
+  /* cond 0~19  */
+  color: #dd514c;
+  font-weight: bold;
+}
+
+.poi-ship-cond-20 {
+  /* cond 20~29 */
+  color: #f37b1d;
+}
+
+.poi-ship-cond-30 {
+  /* cond 30~39 */
+  color: #ffc880;
+}
+
+.poi-ship-cond-40 {
+  /* cond 40~48 */
+  color: inherit;
+}
+
+.poi-ship-cond-49 {
+  /* cond 49 */
+  color: inherit;
+}
+
+.poi-ship-cond-50 {
+  /* cond 50~52 */
+  color: #fe0;
+}
+
+.poi-ship-cond-53 {
+  /* cond 53~100 */
+  color: #ffff40;
+  font-weight: bold;
+}
+
+.undecided-checkbox-inside label {
+  cursor: help;
+}
+
+.undecided-checkbox-inside label input[type="checkbox"] {
+  cursor: help;
+}
+
+.undecided-checkbox-inside input[type="checkbox"]:not(:checked)::after {
+  content: "?";
+  text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.no-transition {
+  transition: 0s;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.info-tooltip .tooltip-inner .recon-title {
+  font-size: 110%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.info-tooltip .tooltip-inner .recon-title:not(:first-child) {
+  margin-top: 0.5em;
+}
+
+.info-tooltip .tooltip-inner .info-tooltip-entry {
+  display: flex;
+  min-width: 100px;
+  text-align: left;
+}
+
+.info-tooltip .tooltip-inner .info-tooltip-item {
+  flex-grow: 1;
+  margin-right: 2em;
+}
+
+.info-tooltip .tooltip-inner {
+  max-width: initial;
+  width: fit-content;
+}
+
+/* progress bar */
+.progress-bar-red {
+  background-color: #d50000;
+}
+
+.progress-bar-orange {
+  background-color: #f57c00;
+}
+
+.progress-bar-yellow {
+  background-color: #fbc02d;
+}
+
+.progress-bar-green {
+  background-color: #4caf50;
+}
+
+div[role="tooltip"],
+.poi-app-container {
+  transform-origin: 0 0;
+}
+
+.material-icon {
+  height: 18px;
+  width: 18px;
+}
+
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none !important;
+}
+
+.react-grid-item.react-grid-placeholder {
+  background: #2196f3 !important;
+}
+
+.react-resizable-handle {
+  filter: opacity(0.5) drop-shadow(0 0 0 white);
+}
+
+.alert {
+  border-radius: 0;
+  font-size: 12px;
+  margin-bottom: 1px;
+  padding: 3px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

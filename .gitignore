@@ -40,4 +40,19 @@ node_modules
 *.swp
 
 # poi build directory
-build/
+build/download
+app_compiled/
+dist/
+
+# icon
+!build/icon.icns
+!build/icon.ico
+!build/icon.png
+!build/icons
+
+# F**k you macOS
+.DS_store
+
+# pre-compiled theme-env
+views/env-parts/theme.js
+views/utils/tools.js
